@@ -1,0 +1,188 @@
+body {
+  margin: auto;
+}
+#navbar {
+  height: 55px;
+  width: 100%;
+  display: inline-block;
+  background-color: #c90a0a;
+}
+#brand {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+#brand > a {
+  text-decoration: none;
+}
+#logo {
+  color: white;
+  font-size: xx-large;
+  height: 50px;
+  font-family: Okra, Helvetica, sans-serif;
+  width: 50%;
+  font-weight: bold;
+}
+#quicksearch {
+  float: left;
+  border: 5px rgb(255, 255, 255);
+  width: 50%;
+}
+#search {
+  height: 39px;
+  width: 60%;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 1%;
+}
+#submit {
+  height: 40px;
+  font-size: 17px;
+  width: 12%;
+  border-radius: 5px;
+}
+#loginsign {
+  float: left;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+#loginsign > a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#section1 {
+  height: 100px;
+  display: inline-block;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 15px;
+  box-shadow: 1px 1px 7px grey;
+}
+#section1 > p {
+  font-family: Roboto, Myriad Pro, Tahoma, sans-serif;
+  margin-left: 3%;
+  float: left;
+}
+#section2 {
+  width: 100%;
+  margin-top: 1%;
+  display: inline-block;
+}
+#filter {
+  box-shadow: 0px 4px 7px grey;
+  float: left;
+  width: 13%;
+  margin-left: 15%;
+  border-radius: 6px;
+}
+#form2 {
+  margin-top: 2%;
+}
+#form3 {
+  margin-top: 3%;
+}
+.filterheading {
+  font-size: 22px;
+}
+.filterdiv {
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #5e5e5e;
+}
+#content {
+  height: 100%;
+  float: left;
+  margin-left: 1%;
+  border-radius: 15px;
+  width: 56%;
+}
+.zomatocontent {
+  display: inline-block;
+  width: 100%;
+  box-shadow: 0px 4px 7px grey;
+  border-radius: 15px;
+}
+.zomatoimg {
+  width: 25%;
+  height: 150px;
+
+  float: left;
+  /* margin-top: 1%; */
+}
+.zomatoinimg {
+  width: 99%;
+  border-radius: 13px;
+
+  height: 99%;
+}
+.zomatoinimg:hover {
+  box-shadow: 1px 1px 9px grey;
+}
+.zomatoinfo {
+  width: 69%;
+  float: left;
+  margin-left: 1%;
+}
+.dishname {
+  text-decoration: none;
+  color: black;
+}
+.dishname:hover {
+  color: #c90a0a;
+}
+.zomatoinfo > span {
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.price {
+  margin-top: -8%;
+  float: right;
+  height: 50px;
+}
+#zomatofooter {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.aboutdiv {
+  float: left;
+  width: 15%;
+  margin-left: 1%;
+  font-size: 0.9rem;
+  font-family: Okra, Helvetica, sans-serif;
+}
+.aboutdiv > h5 {
+  letter-spacing: 0.2rem;
+  font-family: Okra, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.aboutdiv > a {
+  text-decoration: none;
+  float: left;
+  width: 80%;
+  line-height: 25px;
+  font-weight: 300;
+  color: rgb(152, 150, 150);
+}
+.aboutdiv > a:hover {
+  color: black;
+}
+#socialmedia {
+  width: 100%;
+}
+#socialmedia > a {
+  width: 25%;
+  height: 60px;
+}
+#socialmedia > a > img {
+  width: 20%;
+  height: 20%;
+  margin-left: 5%;
+  float: left;
+}
